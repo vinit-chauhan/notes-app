@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --pastel-red: #ff6961;
+    --pastel-orange: #ffcc5c;
+    --pastel-yellow: #ffef96;
+    --pastel-green: #77dd77;
+    --pastel-blue: #aec6cf;
+    --pastel-purple: #b19cd9;
+    --pastel-pink: #ffd1dc;
+    --pastel-brown: #d2b48c;
+    --pastel-gray: #cfd8dc;
+
+    --pastel-dark-red: #b22222;
+    --pastel-dark-orange: #ff8c00;
+    --pastel-dark-yellow: #ffd700;
+    --pastel-dark-green: #228b22;
+    --pastel-dark-blue: #4682b4;
+    --pastel-dark-purple: #800080;
+    --pastel-dark-pink: #ff1493;
+    --pastel-dark-brown: #8b4513;
+    --pastel-dark-gray: #a9a9a9;
+
+    --pastel-light-red: #ff6347;
+    --pastel-light-orange: #ffa500;
+    --pastel-light-yellow: #ffff00;
+    --pastel-light-green: #90ee90;
+    --pastel-light-blue: #87cefa;
+    --pastel-light-purple: #ba55d3;
+    --pastel-light-pink: #ff69b4;
+    --pastel-light-brown: #cd853f;
+    --pastel-light-gray: #d3d3d3;
+
+    --material-black: #212121;
+    --material-white: #f5f5f5;
+}
+
+body {
+    background-color: var(--material-black);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--pastel-green);
+}
+
+a {
+    color: var(--pastel-purple);
+}
+
+button {
+    background-color: var(--pastel-yellow);
+    color: var(--pastel-blue);
+}
