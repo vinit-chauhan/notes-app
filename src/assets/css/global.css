@@ -11,7 +11,7 @@
     --pastel-yellow: #ffef96;
     --pastel-green: #77dd77;
     --pastel-blue: #aec6cf;
-    --pastel-purple: #b19cd9;
+    --pastel-purple: #cca9d4;
     --pastel-pink: #ffd1dc;
     --pastel-brown: #d2b48c;
     --pastel-gray: #cfd8dc;
@@ -41,11 +41,11 @@
 }
 
 body {
-    background-color: var(--material-black);
+    background-color: var(--material-white);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: var(--pastel-green);
+    color: var(--pastel-purple);
 }
 
 a {
